@@ -6,10 +6,10 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'project0'
-copyright = '2024, Jack'
-author = 'Jack'
-release = '1.0'
+project = 'Project Zero'
+copyright = '2024, Walters'
+author = 'Walters'
+release = '1'
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
@@ -17,7 +17,7 @@ release = '1.0'
 extensions = []
 
 templates_path = ['_templates']
-exclude_patterns = []
+exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 
 
 
