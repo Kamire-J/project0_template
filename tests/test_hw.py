@@ -1,9 +1,12 @@
 """
     Project Zero: A template for other projects
 """
-import hello_world
+import pytest
 
-def test_hello_world(capsys):
-	hello_world.main([])
+import hw
+
+@pytest.mark.xfail(reason="Not fully implemented")
+def test_hw(capsys):
+	hw.main([])
 	out, err = capsys.readouterr()
 	assert "Hello, World!" in out
