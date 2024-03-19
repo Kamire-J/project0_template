@@ -7,8 +7,8 @@
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
 project = 'Project Zero'
-copyright = '2024, Walters'
-author = 'Walters'
+copyright = '2024, Author.Inc'
+author = 'Author'
 release = '1'
 
 # -- General configuration ---------------------------------------------------
@@ -26,3 +26,7 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 
 html_theme = 'alabaster'
 html_static_path = ['_static']
+
+import sys
+from pathlib import Path
+sys.path.append(str(Path.cwd().parent/"src"))
