@@ -5,7 +5,6 @@ import subprocess
 import shlex
 from pathlib import Path
 
-
 @when(u'we run command "{command}"')
 def step_impl(context, command):
     output_path = Path("output.log")

@@ -12,6 +12,7 @@ class Greeting:
     """
     pass
 
+
 def main(argv: list[str] = sys.argv[1:]) -> None:
     """Get options and create Greeting object."""
     pass
