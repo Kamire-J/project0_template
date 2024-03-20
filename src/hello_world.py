@@ -1,5 +1,10 @@
-import argparse 
-import sys 
+"""
+    Project Zero: A template for other projects
+"""
+
+import argparse
+import sys
+
 
 def get_options(argv: list[str]) -> argparse.Namespace:
     """Parse command-line"""

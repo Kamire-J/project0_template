@@ -1,2 +1,8 @@
-# The document remains empty
-# There are no environment variables present.
+"""
+    Python Real-World Projects
+    Project Zero: A template for other projects
+"""
+
+# This is empty.
+# The file is required.
+# There are no environmental functions needed

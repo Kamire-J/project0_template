@@ -1,4 +1,8 @@
 """
+    Project Zero: A template for other projects
+"""
+
+"""
 A skeleton to show our initial thoughts on a functional design.
 """
 

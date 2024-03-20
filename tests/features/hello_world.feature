@@ -1,5 +1,9 @@
-Feature: Hello World CLI
+# Python Real-World Projects -- Project Zero: A template for other projects
+# Project 0.
 
-  Scenario: the application writes the greeting message 
-      When we run the command python src/hello_world.py
-      Then output has 'Hello, World!'
+Feature: The Cheerful Greeting CLI interface provides a greeting
+    to a specific name.
+
+Scenario: The application writes the greeting message.
+  When we run command "python src/hello_world.py"
+  Then output has "Hello, World!"
