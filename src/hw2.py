@@ -7,6 +7,7 @@ A skeleton to show our initial thoughts on a class design.
 """
 import sys
 
+
 class Greeting:
     """
     Created with a greeting text.
